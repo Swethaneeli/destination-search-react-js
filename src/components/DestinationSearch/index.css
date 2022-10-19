@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-container {
+    justify-content: start;
+  }
+}
+
+.heading {
+  color: #252627;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+.places-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000vh;
+}
+
+@media screen and (min-width: 768px) {
+  .places-container {
+    flex-direction: row;
+    max-width: 800vh;
+    flex-wrap: wrap;
+    margin: 8px;
+  }
+}
+
+.search-container {
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+}
+
+.search {
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-image {
+  width: 20px;
+}
